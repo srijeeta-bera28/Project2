@@ -354,12 +354,13 @@ font-weight: 500;
 	display: inline-block;
 	color:#fff;
 	font-size:16px;
-	 list-style: none;
+	list-style: none;
 
 }
 .f_nav li
 {
 	margin-top: 7px;
+	margin-left:15px;
 }
 
 .f_nav li > a
