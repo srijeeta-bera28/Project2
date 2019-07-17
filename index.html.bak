@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Real estate</title>
+<!--css-->
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+<!--font awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+<header class="header">
+  <div class="container">
+	<span class="open_btn" onClick="openNav()"><b>&#9776;</b></span>
+	<div id="content">
+	<div class="sidenav" id="myNav">
+	<a href="javascript:void(0)" class="close_btn" onClick="closeNav()">&larr;</a>
+	 
+		 	<a href="#">HOME</a>
+			 <a href="#">SERVICE</a>
+			 <a href="#">ABOUT</a>
+			 <a href="#">CONTACT</a>
+		</div><!--sidenav-->
+		</div><!--content-->
+    <img src="img/logo1.png" class="logo"> 
+    <i class="fas fa-user user" data-toggle="modal" data-target="#myModal"><span class="login">Login </span></i>
+    </div><!--container-->	
+</header>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+       <!--form--> 
+     <form id="frm1">
+  <div class="form-group">
+    <label for="email"  class="form_style">Email address:</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="yourmail@gmail.com" required>
+  </div>
+  <div class="form-group">
+    <label for="pwd" class="form_style">Password:</label>
+    
+    <i class="far fa-eye eye toggle-password" onclick="myFunction()"></i>
+    
+    <input type="password" class="form-control" placeholder="Enter your password" id="pwd" required>
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  
+	  <button type="submit" class="btn btn-danger login_btn">LOGIN</button>
+		
+	    </form>
+	
+		</div>
+	  </div>
+	</div>
+	</div><!--modal-->
+
+
+<div class="slider">
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+	
+	
+	function openNav()
+	{
+		document.getElementById("myNav").style.visibility="visible";
+		document.getElementById("myNav").style.width="20%";
+	}
+	
+	function closeNav()
+	{
+		document.getElementById("myNav").style.visibility="hidden";
+		document.getElementById("myNav").style.width="0";
+	}
+function myFunction() {
+    var x = document.getElementById("pwd");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+	
+	</script>
+	
+	
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

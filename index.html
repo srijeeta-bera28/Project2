@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Real estate</title>
+<!--css-->
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+<!--font awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<!--wow slider-->
+<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+
+
+<script type="text/javascript" src="engine0/jquery.js"></script>
+
+</head>
+
+<body>
+<header class="header">
+ <div class="container">
+	
+	<div class="content" >
+	<div class="sidenav" id="myNav">
+	<a href="javascript:void(0)" class="close_btn" onClick="closeNav()">&larr;</a>
+	 
+		 	<a href="index.html" target="">HOME</a>
+			 <!--<a href="#">SERVICE</a>-->
+			 <a href="properties.html">PROPERTIES</a>
+			 <a href="about.html">ABOUT</a>
+			 <a href="contact.html">CONTACT</a>
+		</div><!--sidenav-->
+		</div><!--content-->
+   
+   <span class="open_btn" onClick="openNav()"><b>&#9776;</b></span>
+    <img src="img/logo1.png" class="logo"> 
+    <i class="fas fa-user user" data-toggle="modal" data-target="#myModal"><span class="login">Login </span></i>
+    </div><!--container-->	
+</header>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+       <!--form--> 
+     <form id="frm1">
+  <div class="form-group">
+    <label for="email"  class="form_style">Email address:</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="yourmail@gmail.com" required>
+  </div>
+  <div class="form-group">
+    <label for="pwd" class="form_style">Password:</label>
+    
+    <i class="far fa-eye eye toggle-password" onclick="myFunction1()"></i>
+    
+    <input type="password" class="form-control" placeholder="Enter your password" id="pwd" required>
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  
+	  <button type="submit" class="btn btn-danger login_btn">LOGIN</button>
+		
+	    </form>
+	
+		</div>
+	  </div>
+	</div>
+	</div><!--modal-->
+
+
+<div class="slider">
+	
+	
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/slider1.jpg" alt="slider1" title="Welcome to Real Estate" id="wows0_0"/>
+		<p class="slider_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		<br>
+		<button class=" read"><a href="#">Read more</a></button>
+		</li>
+		<li><img src="data0/images/slider2.jpg" alt="slider2" title="Professional realtor works for you" id="wows0_1"/>
+		<p class="slider_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		<br>
+		<button class=" read"><a href="#">Read more</a></button>
+		</li>
+		<li><a href="http://wowslider.net"><img src="data0/images/slider3.jpg" alt="slideshow html code" title="Real Estate services at their peak" id="wows0_2"/></a>
+		<p class="slider_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+		
+		<br>
+		<button class=" read"><a href="#">Read more</a></button>
+		</li>
+		
+	</ul></div>
+	<div>
+	<div class="ws_bullets">
+	
+		<a href="#" title="slider1"><span><img src="data0/tooltips/slider1.jpg" alt="slider1"/></span></a>
+		<a href="#" title="slider2"><span><img src="data0/tooltips/slider2.jpg" alt="slider2"/></span></a>
+		<a href="#" title="slider3"><span><img src="data0/tooltips/slider3.jpg" alt="slider3"/></span></a>
+		
+	</div>
+	</div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">responsive slider</a> by WOWSlider.com v8.8</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+</div><!--slider-->
+
+
+<div class="about">
+	<div class="container">
+		<h2>About Us</h2>
+	<hr class="line2">
+		<div class="row">
+		<div class="col-md-6">
+		<p class="abt_text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi harum, qui sequi voluptatem culpa enim aperiam. Assumenda asperiores obcaecati, autem.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi harum, qui sequi voluptatem culpa enim aperiam. Assumenda asperiores obcaecati, autem.
+		</p>
+		<section>
+		 <p  class="slogan">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, similique!"</p>
+			</section>
+			
+			<button class="read1"><a href="#">Read more</a></button>
+		</div><!--col6-->
+		<div class="col-md-6">
+		
+		  <img src="img/abt.jpg" alt="" class="img-responsive abt_img">
+		   </div><!--col6-->
+	  </div><!--row-->
+	</div><!--container-->
+</div><!--about-->
+
+<div class="property">
+<div class="container">
+<h2>Our featured property</h2>
+<hr class="line1">
+<div class="row top">
+<div class="col-md-4">
+ <div class="effect">
+<img src="img/p1.jpg" width="370" height="250" alt="" class="image">
+<div class="overlay">
+  <div class="text">Located in New Jersey, Rentspace offers one-bedroom, two-bedroom, three-bedroom, and four-bedroom apartments for rent. Call today for pricing and availabilityl</div>
+  
+</div>
+</div><!--effect-->
+<h3>Newport</h3>
+ <h4>$1199.00/mon</h4>
+  <span>100 Town Square Place, Jersey City, NJ</span>
+</div><!--col4-->
+
+<div class="col-md-4">
+ <div class="effect">
+<img src="img/p2.jpg" width="370" height="250" alt="" class="image">
+<div class="overlay">
+  <div class="text">Located in New Jersey, Rentspace offers one-bedroom, two-bedroom, three-bedroom, and four-bedroom apartments for rent. Call today for pricing and availabilityl</div>
+</div>
+</div><!--effect-->
+<h3>Modera Lofts</h3>
+ <h4>$2100.00/mon</h4>
+  <span>Jersey City, NJ 07032</span>
+</div><!--col4-->
+
+<div class="col-md-4">
+ <div class="effect">
+<img src="img/p3.jpg" width="370" height="250" alt="" class="image">
+<div class="overlay">
+  <div class="text">Located in New Jersey, Rentspace offers one-bedroom, two-bedroom, three-bedroom, and four-bedroom apartments for rent. Call today for pricing and availabilityl</div>
+</div>
+</div><!--effect-->
+<h3>Altis at Kendall Square</h3>
+<h4>$1159.00/mon</h4>
+<span>16950 SW 93 Street, Miami, FL</span>
+</div><!--col4-->
+
+
+</div><!--row-->
+
+
+<div class="row top">
+<div class="col-md-4">
+ <div class="effect">
+<img src="img/p1.jpg" width="370" height="250" alt="" class="image">
+<div class="overlay">
+  <div class="text">Located in New Jersey, Rentspace offers one-bedroom, two-bedroom, three-bedroom, and four-bedroom apartments for rent. Call today for pricing and availabilityl</div>
+  
+</div>
+</div><!--effect-->
+<h3>Newport</h3>
+ <h4>$1199.00/mon</h4>
+  <span>100 Town Square Place, Jersey City, NJ</span>
+</div><!--col4-->
+
+<div class="col-md-4">
+ <div class="effect">
+<img src="img/p2.jpg" width="370" height="250" alt="" class="image">
+<div class="overlay">
+  <div class="text">Located in New Jersey, Rentspace offers one-bedroom, two-bedroom, three-bedroom, and four-bedroom apartments for rent. Call today for pricing and availabilityl</div>
+</div>
+</div><!--effect-->
+<h3>Modera Lofts</h3>
+ <h4>$2100.00/mon</h4>
+  <span>Jersey City, NJ 07032</span>
+</div><!--col4-->
+
+<div class="col-md-4">
+ <div class="effect">
+<img src="img/p3.jpg" width="370" height="250" alt="" class="image">
+<div class="overlay">
+  <div class="text">Located in New Jersey, Rentspace offers one-bedroom, two-bedroom, three-bedroom, and four-bedroom apartments for rent. Call today for pricing and availabilityl</div>
+</div>
+</div><!--effect-->
+<h3>Altis at Kendall Square</h3>
+<h4>$1159.00/mon</h4>
+<span>16950 SW 93 Street, Miami, FL</span>
+</div><!--col4-->
+</div><!--row-->
+</div><!--container-->
+</div><!--property-->
+
+<div class="counter">
+<div class="container">
+<h2>Our advantages</h2>
+<hr class="line">
+<div class="row" align="center">
+<div class="col-md-3">
+<i class="fas fa-home c_icon"></i>
+<br>
+<div class="border"></div>
+<span id="value">1</span>
+<p class="c_text">Properties Listed</p>
+</div><!--col3-->
+<div class="col-md-3">
+<i class="fas fa-users c_icon"></i>
+<br>
+<div class="border"></div>
+<span id="value2">10</span>
+
+<p class="c_text">Satisfied Clients</p>
+</div><!--col3-->
+<div class="col-md-3">
+<i class="fas fa-key c_icon"></i>
+<br>
+<div class="border"></div>
+<span id="value3">100</span>
+<p class="c_text">Properties Sold</p>
+</div><!--col3-->
+<div class="col-md-3">
+<i class="fas fa-trophy c_icon"></i>
+<br>
+<div class="border"></div>
+<span id="value4">1</span>
+<p class="c_text">Awards</p>
+</div><!--col3-->
+</div><!--row-->
+</div><!--container-->
+</div><!--counter-->
+
+<div class="testimonial">
+	<div class="container">
+		<h2>What our clients say</h2>
+		<hr class="line1">
+	<!--TESTIMONIAL SLIDER-->	
+	<div class="row">
+		<div class="col-md-12">
+			<div class="carousel slide" data-ride="carousel" id="mycarousel">
+				 <ol class="carousel-indicators">
+                <li data-target="#mycarousel" data-slide-to="0" class="active"><img src="img/man1.jpg" class="img-responsive"  >
+                                </li>
+                 <li data-target="#mycarousel" data-slide-to="1"><img class="img-responsive" src="img/man2.jpg" alt="">
+                                </li>
+                <li data-target="#mycarousel" data-slide-to="2"><img class="img-responsive" src="img/m.jpeg" alt="">
+                                </li>
+                      </ol>
+                <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center">
+
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <blockquote>
+                  <div class="row">
+                      <div class="col-md-8 col-sm-offset-2">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+            <cite><small>John Doe</small></cite>
+                      </div><!--col8-->
+                          </div><!--row-->
+                               </blockquote>
+                                </div><!--item-->
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                           <div class="row">
+                              <div class="col-md-8 col-sm-offset-2">
+
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <cite><small>Tom Cruz</small></cite> 
+                      </div><!--col8-->
+                           </div><!--row-->
+                                  </blockquote>
+                                </div><!--item-->
+                                <!-- Quote 3 -->
+                <div class="item">
+                  <blockquote>
+                       <div class="row">
+                          <div class="col-sm-8 col-sm-offset-2">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+         <small>Someone famous</small>
+           </div>
+           </div>
+             </blockquote>
+            </div>
+           </div>               
+			</div><!--carousel slide-->
+		</div><!--col12-->
+	</div><!--row-->		
+	</div><!--container-->
+</div><!--END testimonial-->
+
+
+<!-- contact-->
+
+<div class="contact">
+	<div class="container">
+		<div class="row">
+		<h2>Contact us</h2>
+	<hr class="line">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<form >
+				<div class="form-group">
+					<input type="text" placeholder="Your name" class="form-control input_text">
+				</div><!--form-group-->
+				<div class="form-group">
+					<input type="text" placeholder="Phone number" class="form-control input_text">
+				</div><!--form-group-->
+				<div class="form-group">
+					<input type="email" rows="5" placeholder="E-mail Id" class="form-control input_text">
+				</div><!--form-group-->
+				<div class="form-group">
+					<textarea class="form-control input_text" placeholder="Message" rows="5"></textarea>
+				</div><!--form-group-->
+				<div class="form-group" align="right">
+					<input type="submit" value="Submit" class="submit_btn">
+				</div>
+			</form>
+		</div><!--col6-->
+		<div class="col-md-2"></div>
+		</div><!--row-->
+	</div><!--container-->
+</div><!--contact-->
+
+<div class="footer">
+<div class="container">	
+	<div class="row">
+	<div class="col-md-4">	
+		<h3>Latest news</h3>
+		<i class="fas fa-arrow-right arrow"></i>
+		<time class="time_1" datetime="2018-01-01">2/10/2018</time>
+		
+		<p  style="margin-top:8px;"><a href="#" class="f_text1">Top 10 Apartments in LA</a></p>
+		<i class="fas fa-arrow-right arrow"></i>
+		<time class="time_1" datetime="2018-01-01">7/10/2018</time>
+		
+		<p style="margin-top:8px;"><a href="#" class="f_text1">Choosing Rental Property</a></p>
+		<i class="fas fa-arrow-right arrow"></i>
+		<time class="time_1" datetime="2018-01-01">14/08/2018</time>
+		
+		<p style="margin-top:8px;"><a href="#" class="f_text1">Feature of Motgage Loans</a></p>
+	</div>	
+	<div class="col-md-4">	
+		<h3>Quick Links</h3>
+		<ul class="f_nav">
+			<li> <a href="#">Properties</a></li>
+			<li> <a href="#">Rental</a></li></li>
+			<li> <a href="#">Our Services</a></li>
+			<li> <a href="#">Blog</a></li>
+			<li> <a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">	
+		<h3>Newsletter</h3>
+		<p class="news">Keep up with the latest company news and events. Enter your e-mail and subscribe to our newsletter.</p>
+		<form>
+			<div class="form-group">
+			<!--<i class="fas fa-envelope mail_i"></i>	-->
+				<input type="email" class="form-control f_mail" placeholder="Type your E-mail">
+				<button class="f_submit" value="submit" type="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+	</div><!--row-->
+	<div class="f_logo">	
+		<img src="img/logo1.png" width="100px" height="100px" class="flogo">
+		<div class="f_social">	
+			<a href="#"> <i class="fab fa-facebook-f f_icon icon1"></i></a>
+			<a href="#"> <i class="fab fa-twitter f_icon icon2"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g f_icon icon3"></i> </a>
+			<a href="#"> <i class="fab fa-linkedin-in f_icon icon4"></i></a>
+		</div>
+
+	</div><!--f_logo-->
+</div><!--container-->
+</div><!--footer-->
+
+	<script>
+	
+	function openNav()
+	{
+		document.getElementById("myNav").style.width="250px";
+	}
+	
+	function closeNav()
+	{
+		document.getElementById("myNav").style.width="0";
+	}
+
+	
+function myFunction1() {
+    var x = document.getElementById("pwd");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+
+
+		
+	function animateValue(id, start, end, duration) {
+    var range = end - start;
+    var current = start;
+    var increment = end > start? 1 : -1;
+    var stepTime = Math.abs(Math.floor(duration / range));
+    var obj = document.getElementById(id);
+    var timer = setInterval(function() {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+}
+
+animateValue("value", 1, 250, 5000);
+animateValue("value2", 1, 500, 5000);
+animateValue("value3", 1, 100, 5000);
+animateValue("value4", 1, 45, 3000);	
+	</script>
+	
+	
+
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

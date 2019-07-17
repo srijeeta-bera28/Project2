@@ -1,0 +1,315 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Real estate</title>
+<!--css-->
+<link href="css/about_style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+<!--font awesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+	<header class="header">
+ <div class="container">
+	
+	<div class="content" >
+	<div class="sidenav" id="myNav">
+	<a href="javascript:void(0)" class="close_btn" onClick="closeNav()">&larr;</a>
+	 
+		 	<a href="index.html" target="">HOME</a>
+			 <!--<a href="about.html">SERVICE</a>-->
+			 <a href="properties.html">PROPERTIES</a>
+			 <a href="about.html">ABOUT</a>
+			 <a href="contact.html">CONTACT</a>
+		</div><!--sidenav-->
+		</div><!--content-->
+   
+   <span class="open_btn" onClick="openNav()"><b>&#9776;</b></span>
+    <img src="img/logo1.png" class="logo"> 
+    <i class="fas fa-user user" data-toggle="modal" data-target="#myModal"><span class="login">Login </span></i>
+    </div><!--container-->	
+</header>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+       <!--form--> 
+     <form id="frm1">
+  <div class="form-group">
+    <label for="email"  class="form_style">Email address:</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="yourmail@gmail.com" required>
+  </div>
+  <div class="form-group">
+    <label for="pwd" class="form_style">Password:</label>
+    
+    <i class="far fa-eye eye toggle-password" onclick="myFunction1()"></i>
+    
+    <input type="password" class="form-control" placeholder="Enter your password" id="pwd" required>
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  
+	  <button type="submit" class="btn btn-danger login_btn">LOGIN</button>
+		
+	    </form>
+	
+		</div>
+	  </div>
+	</div>
+	</div><!--modal-->
+
+<!--Banner-->
+<div class="bg1">	
+<div class="container">
+	<h1>About us</h1>
+	<ul class="nav1">
+		<li><a href="#">Home </a></li>
+		<li class="abt">About</li>
+		
+	</ul>
+</div><!--container-->
+</div><!--bg1-->
+
+<div class="heading">
+	<div class="container">
+<h2>Company</h2>
+<hr class="line">
+</div>
+</div>
+<!--TAb-->
+<div class="tab">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<ul class="nav nav-tabs">
+				<li class="active"><a class="style" data-toggle="tab" href="#view">Overview</a></li>
+    <li><a class="style" data-toggle="tab" href="#menu1">Soul of Company</a></li>
+    <li><a class="style" data-toggle="tab" href="#menu2">Team</a></li>
+   
+				</ul>
+				<div class="tab-content">
+  <div id="view" class="tab-pane fade in active">
+  	<div class="container">
+    <div class="row">
+    	<div class="col-md-6">
+    		<img src="img/abt/man1.1.jpg" class=" man1">
+    	</div><!--col6-->
+    	<div class="col-md-6">
+    		<h3 class="who">Who we are</h3>
+    		<hr class="line1">
+    		<p class="para1">	
+    			Intense is a national Real Estate Agency established in 2006 in Los Angeles. Our company was initially designed to help people who are looking for a rental or an apartment for sale. Today we provide video demonstrations of millions of apartments and houses across the country as well as free access to our database for our clients. Awarded with “the Most Innovative Real Estate Agency” prize in 2012, Intense strives to make your housing experience as comfortable as it can be. We care about our clients and help them get the most money and comfort out of their purchases. Moreover, the area of our operation covers many states of the country, so you can be sure you will find the proper house.
+<br>
+Our agents widely cooperate with professional property owners and business companies generating calls from prospects looking for commercial real estate. Thanks to our website, it can be done easier and faster than ever. Whether you are a private individual or a business representative, here you will find the property you are looking for and service you deserve.
+
+
+    		</p>
+    	</div><!--col6-->
+    </div><!--row-->
+</div><!--container-->  
+  </div>
+
+  <div id="menu1" class="tab-pane fade">
+    <div class="container">
+    <div class="row">
+    	
+    	<div class="col-md-4">
+    		<img src="img/abt/Founder1.jpg" class="t_img">
+    		<h4 class="name">A.K Antony</h4>
+    		<div class="info_icon">
+				<i class="fas fa-phone"> <span class="info"> 1800-1290-09</span></i>  <br>
+    		<i class="fas fa-envelope"> <span class="info">antony@gmail.com </span> </i>
+    	</div><!--info-->
+    	</div><!--col4-->
+    	<div class="col-md-8">
+    		
+    		<p class="para1">	
+    			Intense is a national Real Estate Agency established in 2006 in Los Angeles. Our company was initially designed to help people who are looking for a rental or an apartment for sale. Today we provide video demonstrations of millions of apartments and houses across the country as well as free access to our database for our clients. Awarded with “the Most Innovative Real Estate Agency” prize in 2012, Intense strives to make your housing experience as comfortable as it can be. We care about our clients and help them get the most money and comfort out of their purchases. Moreover, the area of our operation covers many states of the country, so you can be sure you will find the proper house.
+<br>
+Our agents widely cooperate with professional property owners and business companies generating calls from prospects looking for commercial real estate. Thanks to our website, it can be done easier and faster than ever. Whether you are a private individual or a business representative, here you will find the property you are looking for and service you deserve.
+    		</p>
+    	</div><!--col8-->
+    </div><!--row-->
+</div><!--container-->  
+  </div>
+
+  <div id="menu2" class="tab-pane fade">
+    <h3>Our Team</h3>
+    <hr class="line2">
+    <div class="container" style="margin-top:20px;">	
+    	<div class="row">
+    	<div class="col-md-4">
+    		<div class="image-container">
+    	<div class="team1">
+    <img src="img/abt/Founder1.jpg" class="img" onmouseenter="myVisible()" 
+    onmouseleave="myInvisible()">
+    </div><!--team1-->
+<div class="overlay-box">
+    <div class="t_info" id="detail">
+    <p class="text"><b>A.K Antony</b></p>
+    <p class="text" >Founder & CEO</p>
+    
+<div class="t_social">
+<a href="#"><i class="fab fa-facebook-square"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-google-plus-g"></i></a>
+</div><!--t_social-->
+</div><!--t_info-->
+</div><!--overlay-->
+</div><!--img-container-->
+</div><!--col4-->
+
+<div class="col-md-4">
+	<div class="image-container">
+<div class="team1">
+    <img src="img/abt/Founder2.jpg" class="img" onmouseenter="myVisible2()" 
+    onmouseleave="myInvisible2()">
+    <div class="overlay-box">
+    <div class="t_info" id="detail2">
+    <p class="text"><b>John Doe</b></p>
+    <p class="text" >Architect</p>
+<div class="t_social">
+<a href="#"><i class="fab fa-facebook-square"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-google-plus-g"></i></a>
+</div><!--t_social-->
+</div><!--t_info-->
+</div><!--team1-->
+</div><!--overlay-->
+</div><!--img-container-->
+</div><!--col4-->
+
+<div class="col-md-4">
+	<div class="image-container">
+	<div class="team1">
+    <img src="img/abt/Founder3.jpg" class="img" onmouseenter="myVisible3()" 
+    onmouseleave="myInvisible3()">
+    <div class="overlay-box">
+    <div class="t_info" id="detail3">
+    <p class="text"><b>Katie Gomes</b></p>
+    <p class="text" >Interior Decorator</p>
+<div class="t_social">
+<a href="#"><i class="fab fa-facebook-square"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-google-plus-g"></i></a>
+</div><!--t_social-->
+</div><!--t_info-->
+</div><!--team1-->
+</div><!--overlay-->
+</div><!--img-container-->
+</div><!--col4-->
+</div><!--row-->
+</div><!--container-->
+  </div><!--menu2-->
+
+</div><!--tab content-->
+</div><!--col12-->
+</div><!--row-->
+</div><!--container-->
+</div><!--tab-->
+
+	
+<div class="footer">
+<div class="container">	
+	<div class="row">
+	<div class="col-md-4">	
+		<h3>Latest news</h3>
+		<i class="fas fa-arrow-right arrow"></i>
+		<time class="time_1" datetime="2018-01-01">2/10/2018</time>
+		
+		<p  style="margin-top:8px;"><a href="#" class="f_text1">Top 10 Apartments in LA</a></p>
+		<i class="fas fa-arrow-right arrow"></i>
+		<time class="time_1" datetime="2018-01-01">7/10/2018</time>
+		
+		<p style="margin-top:8px;"><a href="#" class="f_text1">Choosing Rental Property</a></p>
+		<i class="fas fa-arrow-right arrow"></i>
+		<time class="time_1" datetime="2018-01-01">14/08/2018</time>
+		
+		<p style="margin-top:8px;"><a href="#" class="f_text1">Feature of Motgage Loans</a></p>
+	</div>	
+	<div class="col-md-4">	
+		<h3>Quick Links</h3>
+		<ul class="f_nav">
+			<li> <a href="#">Properties</a></li>
+			<li> <a href="#">Rental</a></li></li>
+			<li> <a href="#">Our Services</a></li>
+			<li> <a href="#">Blog</a></li>
+			<li> <a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<div class="col-md-4">	
+		<h3>Newsletter</h3>
+		<p class="news">Keep up with the latest company news and events. Enter your e-mail and subscribe to our newsletter.</p>
+		<form>
+			<div class="form-group">
+			<!--<i class="fas fa-envelope mail_i"></i>	-->
+				<input type="email" class="form-control f_mail" placeholder="Type your E-mail">
+				<button class="f_submit" value="submit" type="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+	</div><!--row-->
+	<div class="f_logo">	
+		<img src="img/logo1.png" width="100px" height="100px" class="flogo">
+		<div class="f_social">	
+			<a href="#"> <i class="fab fa-facebook-f f_icon icon1"></i></a>
+			<a href="#"> <i class="fab fa-twitter f_icon icon2"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g f_icon icon3"></i> </a>
+			<a href="#"> <i class="fab fa-linkedin-in f_icon icon4"></i></a>
+		</div>
+
+	</div><!--f_logo-->
+</div><!--container-->
+</div><!--footer-->
+
+
+
+<!--script--> 
+
+	<script>
+	function openNav()
+	{
+		document.getElementById("myNav").style.width="250px";
+	}
+	
+	function closeNav()
+	{
+		document.getElementById("myNav").style.width="0";
+	}
+
+
+
+function myFunction1() {
+    var x = document.getElementById("pwd");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+		</script>
+
+
+
+		
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

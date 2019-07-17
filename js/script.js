@@ -1,0 +1,8 @@
+document.getElementById("myNav").style.width="20%";document.getElementById("myNav").style.width="20%";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";document.getElementById("myNav").style.visibility="visible";// JavaScript Document
+function openNav(){
+		document.getElementById('sideNav').style.width="30%";
+	}
+	function colseNav(){
+		document.getElementById('sideNav').style.width="0";
+	}
+	
