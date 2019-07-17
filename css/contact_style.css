@@ -355,12 +355,12 @@ font-weight: 500;
 	color:#fff;
 	font-size:16px;
 	list-style: none;
-
+margin-left:15px;
 }
 .f_nav li
 {
 	margin-top: 7px;
-	margin-left:15px;
+	
 }
 
 .f_nav li > a
